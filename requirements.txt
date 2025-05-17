@@ -3,3 +3,4 @@ torch
 nbconvert
 notebook
 ipywidgets
+pandas
