@@ -31,4 +31,9 @@ This project automates the generation of unit test cases for LeetCode-style prob
 # 📂 Outputs
 Generated test cases are saved in results.md   
 
+## 🚦 CI/CD Pipeline
+
+This project includes a GitHub Actions-based CI/CD pipeline that automatically runs and validates the Jupyter notebook (`Leetcode_test_case_generation.ipynb`) on every push and pull request. The pipeline ensures the notebook executes without errors using the defined environment in `requirements.txt`.
+
+✔️ **Status**: CI/CD pipeline is successfully running on each commit.
 
